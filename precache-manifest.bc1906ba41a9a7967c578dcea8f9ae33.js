@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f222abdab3ac241c87f048eb75777234",
+    "revision": "3097a8167b54d48f7393edf29126e226",
     "url": "/bruegel/index.html"
   },
   {
-    "revision": "657ed0fdcfcce540995e",
+    "revision": "a2617618f6bc94435ed7",
     "url": "/bruegel/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/bruegel/static/js/2.8e0caa37.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "657ed0fdcfcce540995e",
-    "url": "/bruegel/static/js/main.2211aaa9.chunk.js"
+    "revision": "a2617618f6bc94435ed7",
+    "url": "/bruegel/static/js/main.eea326af.chunk.js"
   },
   {
     "revision": "9163ce5731901b3afab1",

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/bruegel/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/bruegel/static/js/main.2211aaa9.chunk.js",
-    "main.js.map": "/bruegel/static/js/main.2211aaa9.chunk.js.map",
+    "main.js": "/bruegel/static/js/main.eea326af.chunk.js",
+    "main.js.map": "/bruegel/static/js/main.eea326af.chunk.js.map",
     "runtime-main.js": "/bruegel/static/js/runtime-main.425017c4.js",
     "runtime-main.js.map": "/bruegel/static/js/runtime-main.425017c4.js.map",
     "static/js/2.8e0caa37.chunk.js": "/bruegel/static/js/2.8e0caa37.chunk.js",
     "static/js/2.8e0caa37.chunk.js.map": "/bruegel/static/js/2.8e0caa37.chunk.js.map",
     "index.html": "/bruegel/index.html",
-    "precache-manifest.61f1ed7a2f1f3618ce8ff84648d0e809.js": "/bruegel/precache-manifest.61f1ed7a2f1f3618ce8ff84648d0e809.js",
+    "precache-manifest.bc1906ba41a9a7967c578dcea8f9ae33.js": "/bruegel/precache-manifest.bc1906ba41a9a7967c578dcea8f9ae33.js",
     "service-worker.js": "/bruegel/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/bruegel/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.8e0caa37.chunk.js.LICENSE.txt": "/bruegel/static/js/2.8e0caa37.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.425017c4.js",
     "static/js/2.8e0caa37.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.2211aaa9.chunk.js"
+    "static/js/main.eea326af.chunk.js"
   ]
 }
