@@ -56,7 +56,7 @@ export default function() {
         bottom: 0,
         overflow: "hidden",
         backgroundColor: "#8b6f4f",
-        backgroundImage: "url(/Image.jpg), url(/Image250.jpg)",
+        backgroundImage: "url(Image.jpg), url(Image250.jpg)",
         backgroundPositionX: `${position.x * 100}%`,
         backgroundPositionY: `${position.y * 100}%`,
         backgroundRepeat: "no-repeat",
