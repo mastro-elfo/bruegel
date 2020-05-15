@@ -15,25 +15,32 @@ export default function() {
   // const [zoom, setZoom] = useState(1);
 
   const handleMouseDown = ev => {
+    // console.log("onMouseDown");
     setStart(position);
+    const mouseOrTouch = ev.touches && ev.touches.length ? ev.touches[0] : ev;
     setDrag({
-      x: ev.clientX,
-      y: ev.clientY
+      x: mouseOrTouch.clientX,
+      y: mouseOrTouch.clientY
     });
   };
 
   const handleMouseMove = ev => {
     if (drag) {
+      const mouseOrTouch = ev.touches && ev.touches.length ? ev.touches[0] : ev;
+
       setPosition({
         x: Math.min(
           1,
-          Math.max(0, start.x - (ev.clientX - drag.x) / ref.current.clientWidth)
+          Math.max(
+            0,
+            start.x - (mouseOrTouch.clientX - drag.x) / ref.current.clientWidth
+          )
         ),
         y: Math.min(
           1,
           Math.max(
             0,
-            start.y - (ev.clientY - drag.y) / ref.current.clientHeight
+            start.y - (mouseOrTouch.clientY - drag.y) / ref.current.clientHeight
           )
         )
       });
@@ -41,6 +48,7 @@ export default function() {
   };
 
   const handleMouseUp = () => {
+    // console.log("onMouseUp");
     setDrag(null);
   };
 
@@ -63,8 +71,11 @@ export default function() {
         backgroundSize: "cover"
       }}
       onMouseDown={handleMouseDown}
+      onTouchStart={handleMouseDown}
       onMouseUp={handleMouseUp}
+      onTouchEnd={handleMouseUp}
       onMouseMove={handleMouseMove}
+      onTouchMove={handleMouseMove}
       ref={ref}
     ></div>
   );
