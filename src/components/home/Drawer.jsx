@@ -1,3 +1,5 @@
+// TODO: Reset all settings
+
 import React from "react";
 
 import { useHistory } from "react-router-dom";
