@@ -8,8 +8,6 @@ import SuggestionIconButton from "./SuggestionIconButton";
 import GrowTypography from "../GrowTypography";
 
 export default function HomeHeader({ onOpen, answers, guesses }) {
-  // TODO: Add help button that displays a random hint
-
   const [newGuess, setNewGuess] = useState(false);
 
   useEffect(() => {
