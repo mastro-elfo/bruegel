@@ -54,6 +54,9 @@ export default function() {
 
   // const handleWheel = () => {}
 
+  // TODO: Use original image from wikipedia
+  // TODO: gitignore images that aren't used
+
   return (
     <div
       style={{

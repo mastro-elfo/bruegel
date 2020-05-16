@@ -63,10 +63,12 @@ export default function HomeView() {
         enqueueSnackbar("Già trovato", { variant: "info", ...snackbarProps });
         console.log(answers[index].id, guesses);
       } else {
+        // Success
         enqueueSnackbar("Corretto!", {
           variant: "success",
           ...snackbarProps
         });
+        // TODO: Add a sound?
         setGuesses([...guesses, answers[index].id]);
       }
     } else {

@@ -12,6 +12,9 @@ const useStyles = makeStyles(theme => ({
 }));
 
 export default function TextInput({ onSubmit = () => {}, answers }) {
+  // TODO: Only once, show a tooltip over the TextField
+  // TODO: Add 'send' button
+
   const [value, setValue] = useState("");
   const classes = useStyles();
   const theme = useTheme();
