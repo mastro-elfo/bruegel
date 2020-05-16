@@ -4,9 +4,12 @@ import { AppBar, Badge, Box, IconButton, Toolbar } from "@material-ui/core";
 
 import MenuIcon from "@material-ui/icons/Menu";
 
+import SuggestionIconButton from "./SuggestionIconButton";
 import GrowTypography from "../GrowTypography";
 
 export default function HomeHeader({ onOpen, answers, guesses }) {
+  // TODO: Add help button that displays a random hint
+
   const [newGuess, setNewGuess] = useState(false);
 
   useEffect(() => {
@@ -25,6 +28,8 @@ export default function HomeHeader({ onOpen, answers, guesses }) {
             <MenuIcon />
           </IconButton>
           <GrowTypography variant="h6" color="inherit"></GrowTypography>
+
+          <SuggestionIconButton answers={answers} guesses={guesses} />
 
           <Box
             bgcolor="rgba(255,255,255,0.5)"
