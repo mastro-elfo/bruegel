@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   // See https://reacttraining.com/react-router/web/guides/quick-start for details
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect
