@@ -1,3 +1,5 @@
+// TODO: Create a logo
+
 import React from "react";
 
 import BoxContainer from "../BoxContainer";
