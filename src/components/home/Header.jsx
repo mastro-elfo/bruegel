@@ -29,6 +29,9 @@ export default function HomeHeader({ onOpen, answers, guesses }) {
 
           <SuggestionIconButton answers={answers} guesses={guesses} />
 
+          {
+            // TODO: I don't like this background
+          }
           <Box
             bgcolor="rgba(255,255,255,0.5)"
             color="primary.main"
