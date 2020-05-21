@@ -50,7 +50,7 @@ export default function HomeDrawer({
           <ListItemIcon>
             <span>B</span>
           </ListItemIcon>
-          <ListItemText primary="Bruegel" secondary="v1.0.0" />
+          <ListItemText primary="Bruegel" secondary="v1.1.0" />
         </ListItem>
       </List>
     </SwipeableDrawer>
