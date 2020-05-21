@@ -67,7 +67,8 @@ export default function() {
         bottom: 0,
         overflow: "hidden",
         backgroundColor: "#8b6f4f",
-        backgroundImage: "url(Image.jpg), url(Image250.jpg)",
+        backgroundImage:
+          "url(https://upload.wikimedia.org/wikipedia/commons/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg), url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/320px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg)",
         backgroundPositionX: `${position.x * 100}%`,
         backgroundPositionY: `${position.y * 100}%`,
         backgroundRepeat: "no-repeat",
