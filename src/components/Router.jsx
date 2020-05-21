@@ -19,7 +19,7 @@ const ROUTES = [
 
 export default function(props) {
   return (
-    <Router basename="/bruegel">
+    <Router>
       <Switch>
         {ROUTES.map((route, i) => (
           <Route key={i} {...route} />
