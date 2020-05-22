@@ -1,6 +1,13 @@
 import React, { useEffect, useState, Fragment } from "react";
 
-import { AppBar, Badge, Box, IconButton, Toolbar } from "@material-ui/core";
+import {
+  AppBar,
+  Badge,
+  Box,
+  IconButton,
+  Toolbar,
+  Typography
+} from "@material-ui/core";
 
 import MenuIcon from "@material-ui/icons/Menu";
 
@@ -29,20 +36,11 @@ export default function HomeHeader({ onOpen, answers, guesses }) {
 
           <SuggestionIconButton answers={answers} guesses={guesses} />
 
-          {
-            // TODO: I don't like this background
-          }
-          <Box
-            bgcolor="rgba(255,255,255,0.5)"
-            color="primary.main"
-            fontSize="h6.fontSize"
-            borderRadius="borderRadius"
-            px={0.5}
-          >
+          <Typography color="primary" variant="h6">
             <Badge badgeContent={newGuess ? "+1" : 0} color="primary">
               {guesses.length}/{answers.length}
             </Badge>
-          </Box>
+          </Typography>
         </Toolbar>
       </AppBar>
       <Toolbar />
