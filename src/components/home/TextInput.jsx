@@ -1,7 +1,15 @@
 import React, { useState } from "react";
 
 import { makeStyles, useTheme } from "@material-ui/core/styles";
-import { Box, Grid, TextField } from "@material-ui/core";
+import {
+  Box,
+  Grid,
+  IconButton,
+  InputAdornment,
+  TextField
+} from "@material-ui/core";
+
+import SendIcon from "@material-ui/icons/Send";
 
 const useStyles = makeStyles(theme => ({
   Input: {
@@ -13,7 +21,6 @@ const useStyles = makeStyles(theme => ({
 
 export default function TextInput({ onSubmit = () => {}, answers }) {
   // TODO: Only once, show a tooltip over the TextField
-  // TODO: Add 'send' button
 
   const [value, setValue] = useState("");
   const classes = useStyles();
@@ -49,7 +56,14 @@ export default function TextInput({ onSubmit = () => {}, answers }) {
             onChange={({ target: { value } }) => setValue(value)}
             onKeyPress={handleKeyPress}
             InputProps={{
-              classes: { root: classes.Input, focused: classes.InputFocused }
+              classes: { root: classes.Input, focused: classes.InputFocused },
+              endAdornment: (
+                <InputAdornment position="end">
+                  <IconButton title="Send" onClick={handleSubmit}>
+                    <SendIcon />
+                  </IconButton>
+                </InputAdornment>
+              )
             }}
           />
         </Grid>
