@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/bruegel/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/bruegel/static/js/main.eb909166.chunk.js",
-    "main.js.map": "/bruegel/static/js/main.eb909166.chunk.js.map",
+    "main.js": "/bruegel/static/js/main.7d887546.chunk.js",
+    "main.js.map": "/bruegel/static/js/main.7d887546.chunk.js.map",
     "runtime-main.js": "/bruegel/static/js/runtime-main.425017c4.js",
     "runtime-main.js.map": "/bruegel/static/js/runtime-main.425017c4.js.map",
-    "static/js/2.8ce0afe3.chunk.js": "/bruegel/static/js/2.8ce0afe3.chunk.js",
-    "static/js/2.8ce0afe3.chunk.js.map": "/bruegel/static/js/2.8ce0afe3.chunk.js.map",
+    "static/js/2.8802ffa8.chunk.js": "/bruegel/static/js/2.8802ffa8.chunk.js",
+    "static/js/2.8802ffa8.chunk.js.map": "/bruegel/static/js/2.8802ffa8.chunk.js.map",
     "index.html": "/bruegel/index.html",
-    "precache-manifest.6baab26607a2406e85b4779f3fa08253.js": "/bruegel/precache-manifest.6baab26607a2406e85b4779f3fa08253.js",
+    "precache-manifest.64da2ca3fb046c4451f70908d8985a09.js": "/bruegel/precache-manifest.64da2ca3fb046c4451f70908d8985a09.js",
     "service-worker.js": "/bruegel/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/bruegel/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.8ce0afe3.chunk.js.LICENSE.txt": "/bruegel/static/js/2.8ce0afe3.chunk.js.LICENSE.txt"
+    "static/js/2.8802ffa8.chunk.js.LICENSE.txt": "/bruegel/static/js/2.8802ffa8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.425017c4.js",
-    "static/js/2.8ce0afe3.chunk.js",
+    "static/js/2.8802ffa8.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.eb909166.chunk.js"
+    "static/js/main.7d887546.chunk.js"
   ]
 }
