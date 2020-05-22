@@ -2,6 +2,8 @@ import React, { Fragment, useEffect, useState } from "react";
 
 import { Box, Button } from "@material-ui/core";
 
+import LiveHelpIcon from "@material-ui/icons/LiveHelp";
+
 import ConfirmDialog from "../ConfirmDialog";
 
 import { get as getSetting, set as setSetting } from "../actions/settings";
@@ -17,9 +19,9 @@ export default function HomeContent({ onSubmit = () => {}, answers }) {
     <ConfirmDialog
       open={open}
       onClose={() => setOpen(false)}
-      title=""
       confirm="Iniziamo"
       onConfirm={() => setOpen(false)}
+      ConfirmButtonProps={{ title: "Clicca per iniziare" }}
       content={[
         <Fragment>
           <Box component="span" fontWeight="fontWeightBold">
@@ -57,6 +59,11 @@ export default function HomeContent({ onSubmit = () => {}, answers }) {
           Lo scopo di questo gioco è di trovare i proverbi nascosti in questo
           dipinto. Sono risposte valide sia la traduzione in italiano del
           proverbio originale, sia la versione italiana.
+        </Fragment>,
+        <Fragment>
+          Se ti serve aiuto puoi usare il pulsante <LiveHelpIcon /> per ricevere
+          un suggerimento. Puoi seguire i tuoi progressi in questa{" "}
+          <Button href="#/proverbs">pagina</Button>
         </Fragment>
       ]}
     />
